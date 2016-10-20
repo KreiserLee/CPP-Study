@@ -13,6 +13,7 @@ int main()
         for (int *q = *p; q != *p + 4; ++q)
             *q = val++;
     
+    // 用指针遍历三维数组，并赋值
     val = 0;
     for (int (*p)[20][30] = arr; p != arr + 10; ++p)
         for (int (*q)[30] = *p; q != *p + 20; ++q)
