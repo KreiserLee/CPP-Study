@@ -3,7 +3,7 @@ using namespace std;
 
 union bits_32 {
     // 一个bits_32类型的变量共占32bits，可以把这部分内存解释成两种不同的东西：
-    // 一个int类型，或者一个又4个char组成的结构体
+    // 一个int类型，或者一个有4个char组成的结构体
     int value;
     struct {char c0, c1, c2, c3;} byte;
 };
