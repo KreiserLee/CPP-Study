@@ -52,9 +52,4 @@ void StrVec::reallocate()
     auto elem = elements; // 指向旧数组中下一个元素
     for (size_t i = 0; i != size(); ++i)
         alloc.construct(dest++, std::move(*elem++));
-    free(); // 移动完元素就释放旧内存空间
-    // 更新数据结构，执行新元素
-    elements = newdata;
-    first_free = dest;
-    cap = elements + newcapacity;
 }
