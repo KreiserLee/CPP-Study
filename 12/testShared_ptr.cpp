@@ -28,5 +28,8 @@ int main()
     int *pi4 = new int; // 默认初始化，未定义
     cout << "value of pi3: " << *pi3 << endl;
     cout << "value of pi4: " << *pi4 << endl;
+    
+    shared_ptr<int> sp = make_shared<int>(*pi4);
+    cout << pi4 << " " << sp.get() << " " << *sp << endl;
     return 0;
 }
