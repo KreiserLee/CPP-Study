@@ -1,19 +1,31 @@
+// 瀵逛簬StrBlob涓殑鍙嬪厓澹版槑鏉ヨ锛屾鍓嶇疆澹版槑鏄繀瑕佺殑
+class StrBlobPtr;
 class StrBlob {
     public:
         typedef std::vector<std::string>::size_type size_type;
+
+        //鏍告煡鎸囬拡绫伙紙浼撮殢鎸囬拡绫伙級鎿嶄綔
+        friend class StrBlobPtr;
+        StrBlobPtr begin() { return StrBlobPtr(*this); }
+        StrBlobPtr end()
+        {
+            auto ret = StrBlobPtr(*this, data->size());
+            return ret;
+        }
+
         StrBlob();
         StrBlob(std::initializer_list<std::string> il);
         size_type size() const { return data->size(); }
         bool empty() const { return data->empty(); }
-        // 添加和删除元素
+        // 锟斤拷锟接猴拷删锟斤拷元锟斤拷
         void push_back(const std::string &t) {data->push_back(t); }
         void pop_back();
-        // 元素访问
+        // 元锟截凤拷锟斤拷
         std::string& front();
         std::string& back();
     private:
         std::shared_ptr<std::vector<std::string>> data;
-        // 如果data[i]不合法，抛出一个异常
+        // 锟斤拷锟斤拷data[i]锟斤拷锟较凤拷锟斤拷锟阶筹拷一锟斤拷锟届常
         void check(size_type i, const std::string &msg) const;
 };
 
@@ -27,7 +39,7 @@ void StrBlob::check(size_type i, const std::string &msg) const {
 }
 
 std::string& StrBlob::front() {
-    // 如果vector为空，check会抛出一个异常
+    // 锟斤拷锟斤拷vector为锟秸ｏ拷check锟斤拷锟阶筹拷一锟斤拷锟届常
     check(0, "front on empty StrBlob!");
     return data->front();
 }

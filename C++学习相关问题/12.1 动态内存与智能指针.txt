@@ -26,3 +26,13 @@ delete：接受一个动态对象的指针，销毁该对象，并释放与之关联的内存。
     std::make_shared<int>();// 返回指向此对象的shared_ptr
     等价于 new int(); // ??? 返回指向此int的指针(int *)
     
+weak_ptr
+为了解决引用关系中出现环的情况。
+1.不控制所指向对象生存期的智能指针。
+2.它指向由一个shared_ptr管理的对象。
+3.将一个weak_ptr绑定到一个shared_ptr不会改变其引用计数。
+4.当创建一个weak_ptr时，要用一个shared_ptr来初始化它：
+    shared_ptr<int> p = make_shared<int>(42);
+    weak_ptr<int> wp(p); // wp弱共享p；p的引用计数不变；
+5.
+
