@@ -1,0 +1,265 @@
+000000009929<?xml version="1.0"?>
+<TX>
+   <TX_HEADER>
+      <SYS_HDR_LEN>0</SYS_HDR_LEN>
+      <SYS_PKG_VRSN>01</SYS_PKG_VRSN>
+      <SYS_TTL_LEN>0</SYS_TTL_LEN>
+      <SYS_REQ_SEC_ID>102001</SYS_REQ_SEC_ID>
+      <SYS_SND_SEC_ID>108011</SYS_SND_SEC_ID>
+      <SYS_TX_CODE>P53819113</SYS_TX_CODE>
+      <SYS_TX_VRSN>01</SYS_TX_VRSN>
+      <SYS_TX_TYPE>020000</SYS_TX_TYPE>
+      <SYS_RESERVED>0</SYS_RESERVED>
+      <SYS_EVT_TRACE_ID>1020018031428474219000988</SYS_EVT_TRACE_ID>
+      <SYS_SND_SERIAL_NO>3000000000</SYS_SND_SERIAL_NO>
+      <SYS_PKG_TYPE>1</SYS_PKG_TYPE>
+      <SYS_MSG_LEN>0</SYS_MSG_LEN>
+      <SYS_IS_ENCRYPTED>0</SYS_IS_ENCRYPTED>
+      <SYS_ENCRYPT_TYPE>3</SYS_ENCRYPT_TYPE>
+      <SYS_COMPRESS_TYPE>0</SYS_COMPRESS_TYPE>
+      <SYS_EMB_MSG_LEN>0</SYS_EMB_MSG_LEN>
+      <SYS_REQ_TIME>20170307172748123</SYS_REQ_TIME>
+      
+      <SYS_TIME_LEFT>000119252</SYS_TIME_LEFT>
+      <SYS_PKG_STS_TYPE>00</SYS_PKG_STS_TYPE>
+   </TX_HEADER>
+   <TX_BODY>
+      <COMMON>
+         <FILE_LIST_PACK>
+            <FILE_NUM>0</FILE_NUM>
+            <FILE_MODE>0</FILE_MODE>
+            <FILE_NODE />
+            <FILE_NAME_PACK />
+            <FILE_PATH_PACK />
+         </FILE_LIST_PACK>
+      </COMMON>
+      <ENTITY>
+         <COM_ENTITY>
+            <Inst_Eng_ShrtNm>CCB</Inst_Eng_ShrtNm>
+            <Ins_Co_ID>010001</Ins_Co_ID>
+            <SvPt_Jrnl_No>18320412cc20170307172748</SvPt_Jrnl_No>
+            
+            <TXN_ITT_CHNL_ID>001</TXN_ITT_CHNL_ID>
+            <TXN_ITT_CHNL_CGY_CODE>10010001</TXN_ITT_CHNL_CGY_CODE>
+            
+            <CCBIns_ID>01030227</CCBIns_ID>
+            
+            <CCB_EmpID>95920150</CCB_EmpID>
+            <OprgDay_Prd>20161115</OprgDay_Prd>
+            <LNG_ID>zh-cn</LNG_ID>
+         </COM_ENTITY>
+         <APP_ENTITY>
+            <Plchd_Nm>19900101</Plchd_Nm>
+            <Plchd_Gnd_Cd>哈维</Plchd_Gnd_Cd>  
+            <Plchd_Brth_Dt>2</Plchd_Brth_Dt>
+            
+            <Plchd_Crdt_TpCd>1</Plchd_Crdt_TpCd>
+            <Plchd_Crdt_No>110107201503069226</Plchd_Crdt_No>
+            <Plchd_Crdt_EfDt>20121117</Plchd_Crdt_EfDt>
+            <Plchd_Crdt_ExpDt>20181117</Plchd_Crdt_ExpDt>
+            <Plchd_Nat_Cd>156</Plchd_Nat_Cd>
+            <Plchd_Comm_Adr>北京市朝阳区建设大街三百三十3号</Plchd_Comm_Adr>
+            <Plchd_ZipECD>100032</Plchd_ZipECD>
+            <Plchd_Fix_TelNo>1500090</Plchd_Fix_TelNo>
+            <Plchd_Move_TelNo>13090900000</Plchd_Move_TelNo>
+            <Plchd_Email_Adr>zhuhc@ehuatai.com</Plchd_Email_Adr>
+            
+            <Plchd_Ocp_Cd>20150101</Plchd_Ocp_Cd>
+            <PlchdCtcAdrCtyRgon_Cd>156</PlchdCtcAdrCtyRgon_Cd>
+            
+            <Plchd_Prov_Cd>110000</Plchd_Prov_Cd>
+            
+            <Plchd_City_Cd>110000</Plchd_City_Cd>
+            
+            <Plchd_CntyAndDstc_Cd>110100</Plchd_CntyAndDstc_Cd>
+            
+            <Plchd_Dtl_Adr_Cntnt>紫禁城大内95号</Plchd_Dtl_Adr_Cntnt>
+            
+            <PlchdFixTelItnlDstcNo />
+            
+            <PlchdFixTelDmstDstcNo>010</PlchdFixTelDmstDstcNo>
+            
+            <PlchdFixTelDmstDstcNo />
+            
+            <Plchd_Yr_IncmAm>1000000.00</Plchd_Yr_IncmAm>
+            <Fam_Yr_IncmAm />
+            <Rsdnt_TpCd>1</Rsdnt_TpCd>
+            <RspbPsn_Nm />
+            <Plchd_And_Rcgn_ReTpCd>1</Plchd_And_Rcgn_ReTpCd>
+            
+            <Rcgn_Nm>0901001</Rcgn_Nm>
+            <Rcgn_CPA_FullNm />
+            <Rcgn_Gnd_Cd>1</Rcgn_Gnd_Cd>
+            <Rcgn_Brth_Dt>10</Rcgn_Brth_Dt>
+            <Rcgn_Crdt_TpCd>568</Rcgn_Crdt_TpCd>
+            <Rcgn_Crdt_No>14010920070306874X</Rcgn_Crdt_No>
+            <Rcgn_Crdt_EfDt>20121117</Rcgn_Crdt_EfDt>
+            <Rcgn_Crdt_ExpDt>20181117</Rcgn_Crdt_ExpDt>
+            <Rcgn_Nat_Cd>156</Rcgn_Nat_Cd>
+            <Rcgn_Comm_Adr>北京市朝阳区建设大街三百三十3号</Rcgn_Comm_Adr>
+            <Rcgn_ZipECD>100032</Rcgn_ZipECD>
+            <Rcgn_Fix_TelNo>1500090</Rcgn_Fix_TelNo>
+            <Rcgn_Move_TelNo>13090900000</Rcgn_Move_TelNo>
+            <Rcgn_Email_Adr>zhuhc@ehuatai.com</Rcgn_Email_Adr>
+            <Rcgn_Ocp_Cd>0</Rcgn_Ocp_Cd>
+            <RcgnCtcAdr_CtyRgon_Cd>156</RcgnCtcAdr_CtyRgon_Cd>
+            
+            <Rcgn_Prov_Cd>110000</Rcgn_Prov_Cd>
+            
+            <Rcgn_City_Cd>110000</Rcgn_City_Cd>
+            
+            <Rcgn_CntyAndDstc_Cd>110100</Rcgn_CntyAndDstc_Cd>
+            
+            <Rcgn_Dtl_Adr_Cntnt>后海裕王府</Rcgn_Dtl_Adr_Cntnt>
+            
+            <RcgnFixTelItnl_DstcNo />
+            
+            <RcgnFixTelDmst_DstcNo>010</RcgnFixTelDmst_DstcNo>
+            
+            <RcgnMoveTelItnlDstcNo />
+            
+            <Rcgn_Yr_IncmAm>1000000.00</Rcgn_Yr_IncmAm>
+            <Rcgn_LvFr_Pps_Lnd_Num />
+            <Pps_List />
+            <Benf_Num>1</Benf_Num>
+            <Benf_List>
+               <Benf_Detail>
+                  <AgIns_Benf_TpCd>0</AgIns_Benf_TpCd>
+                  <Benf_SN>1</Benf_SN>
+                  <Benf_Bnft_Seq>1</Benf_Bnft_Seq>
+                  <Benf_Nm>女儿</Benf_Nm>
+                  <Benf_Gnd_Cd>02</Benf_Gnd_Cd>
+                  <Benf_Brth_Dt>20050817</Benf_Brth_Dt>
+                  <Benf_Crdt_TpCd>1010</Benf_Crdt_TpCd>
+                  <Benf_Crdt_No>110100200508179740</Benf_Crdt_No>
+                  <Benf_Crdt_EfDt>20150202</Benf_Crdt_EfDt>
+                  <Benf_Crdt_ExpDt>20250201</Benf_Crdt_ExpDt>
+                  <BenfCtcAdr_CtyRgon_Cd>156</BenfCtcAdr_CtyRgon_Cd>
+                  <Benf_Prov_Cd>220000</Benf_Prov_Cd>
+                  <Benf_City_Cd>220100</Benf_City_Cd>
+                  <Benf_CntyAndDstc_Cd>220102</Benf_CntyAndDstc_Cd>
+                  <Benf_Dtl_Adr_Cntnt>吉林省长春市南关区二道街</Benf_Dtl_Adr_Cntnt>
+                  <Benf_Nat_Cd />
+                  <Benf_And_Rcgn_ReTpCd>0133012</Benf_And_Rcgn_ReTpCd>
+                  <Bnft_Pct>1.0000</Bnft_Pct>
+                  <Benf_Comm_Adr />
+               </Benf_Detail>
+            </Benf_List>
+            <AgIns_Pkg_ID />
+            <Cvr_Num />
+            
+            <Busi_List>
+               <Busi_Detail>
+                  <Cvr_ID>221</Cvr_ID>
+                  <Cvr_Nm>泰康铁定保意外伤害保障计划</Cvr_Nm>
+                  <MainAndAdlIns_Ind>1</MainAndAdlIns_Ind>
+                  <Ins_Cps>10</Ins_Cps>
+                  
+                  <InsPrem_Amt />
+                  
+                  <Ins_Cvr />
+                  
+                  <Ins_Scm_Inf />
+                  <Opt_Part_DieIns_Amt />
+                  <FTm_Extr_Adl_InsPrem />
+                  <Emgr_CtcPsn />
+                  <EmgrCtcPsnAndRcReTpCd />
+                  <Emgr_Ctc_Tel />
+                  <Bnk_Loan_Ctr_ID />
+                  <Ln_Ctr_ExpDt />
+                  <Upd_Loan_Amt />
+                  <PrimBlInsPolcyVchr_No />
+                  <InsPrem_PyF_MtdCd>1</InsPrem_PyF_MtdCd>
+                  
+                  <InsPrem_PyF_Prd_Num>0</InsPrem_PyF_Prd_Num>
+                  <InsPrem_PyF_Cyc_Cd>60</InsPrem_PyF_Cyc_Cd>
+                  
+                  <ExpPrmmRcvModCgyCd />
+                  <SvBnf_Drw_Cyc_Cd />
+                  <ApntInsPremPyAdvnInd />
+                  <XtraDvdn_Pcsg_MtdCd />
+                  <RdAmtPyCls_Ind />
+                  <Anuty_Drw_CgyCd />
+                  <Anuty_Drw_Prd_Num />
+                  <Anuty_Drw_Cyc_Cd />
+                  <Anuty_Pcsg_MtdCd />
+                  <Ins_Yr_Prd_CgyCd />
+                  <Ins_Ddln>010986</Ins_Ddln>
+                  
+                  <Ins_Cyc_Cd />
+                  <Ivs_MtdCd />
+                  <Auto_RnwCv_Ind />
+                  <Rsrv_Fld_1 />
+                  <Rsrv_Fld_2 />
+                  <Rsrv_Fld_3 />
+                  <Rsrv_Fld_4 />
+                  <Rsrv_Fld_5 />
+                  <Rsrv_Fld_6 />
+                  <Rsrv_Fld_7 />
+                  <Rsrv_Fld_8 />
+                  <Rsrv_Fld_9 />
+                  <Rsrv_Fld_10 />
+                  <IvsAc_Num>0</IvsAc_Num>
+                  
+                  <PayAcctCode_List />
+               </Busi_Detail>
+            </Busi_List>
+            <Ins_Bl_Prt_No>201757738</Ins_Bl_Prt_No>
+            
+            <Minr_Acm_Cvr />
+            <InsPolcy_Pswd />
+            <Inv_No />
+            <Ntf_Itm_Ind>0</Ntf_Itm_Ind>
+            
+            <Dspt_Pcsg_MtdCd>03</Dspt_Pcsg_MtdCd>
+            <Dspt_Arbtr_Inst_Nm />
+            <InsPolcy_Rcv_MtdCd />
+            <Ins_Prj_CgyCd />
+            <PydFeeOutBill_CgyCd />
+            <InsPolcyActSaleRgonID />
+            <Ins_CsLs_Prvd_Rgon_ID />
+            <Pstcrpt_Rmrk />
+            <InsPolcy_Intnd_EfDt />
+            <InsPolcy_Medm_TpCd>2</InsPolcy_Medm_TpCd>
+            
+            <CstMgr_Blng_CCBIns_ID />
+            
+            <Lv1_Br_No>试算成功，保费正确</Lv1_Br_No>
+            <BO_Nm>中国建设银行股份有限公司北京银地支行</BO_Nm>
+            
+            <BOInsPrAgnBsnLcns_ECD>123456789</BOInsPrAgnBsnLcns_ECD>
+            
+            <BOInsPrAgBsnLcnVld_Dt>20991231</BOInsPrAgBsnLcnVld_Dt>
+            
+            <BO_Sale_Stff_Nm />
+            
+            <BO_Sale_Stff_ID />
+            
+            <Sale_Stff_AICSQCtf_ID>12414142241</Sale_Stff_AICSQCtf_ID>
+            
+            <InsAgnCrStQuaCtVld_Dt>20230201</InsAgnCrStQuaCtVld_Dt>
+            
+            <BOIChOfAgInsBsnPnp_ID>60516155</BOIChOfAgInsBsnPnp_ID>
+            <BOIChOfAgInsBsnPnp_Nm>李政道</BOIChOfAgInsBsnPnp_Nm>
+            <Rnew_PyF_PyMd_Cd>1</Rnew_PyF_PyMd_Cd>
+            
+            <Plchd_PyF_AccNo>6227110061371955</Plchd_PyF_AccNo>
+            
+            <Plchd_Drw_AccNo />
+            <Rcgn_AccNo />
+            <Benf_AccNo />
+            <Rsrv_Fld_11 />
+            <Rsrv_Fld_12 />
+            <Rsrv_Fld_13 />
+            <Rsrv_Fld_14 />
+            <Rsrv_Fld_15 />
+            <Rsrv_Fld_16 />
+            <Rsrv_Fld_17 />
+            <Rsrv_Fld_18 />
+            <Rsrv_Fld_19 />
+            <Rsrv_Fld_20 />
+         </APP_ENTITY>
+      </ENTITY>
+   </TX_BODY>
+   <TX_EMB />
+</TX>

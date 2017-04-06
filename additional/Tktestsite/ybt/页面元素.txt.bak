@@ -1,0 +1,13 @@
+1、文件：Excel、试算报文模板、承保报文模板
+2、执行行号（起始、终止）、sheetname、结果列、任务号、银行代码
+
+页面表单逻辑：
+简单情况，一个页面用于显示表单；另外一个页面用于显示表单处理结果
+1.建立view函数显示搜索表单：search_form.html(search_form函数)，以及修改urls
+2.添加第二个视图函数，用于处理表单提交的请求：search_result.html(search函数)，以及修改urls
+
+
+
+
+注：
+在视图里可以使用request.GET来获取传统URL里的查询字符串（例如hours=3）

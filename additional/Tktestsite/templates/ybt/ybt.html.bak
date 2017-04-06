@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Search</title>
+        <!-- 新 Bootstrap 核心 CSS 文件 -->
+        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+        <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="span12">
+    			<h1 style="color:black">银保通测试</h1>
+    			<h3 style="color:blue">任务<a href="/ybt/search/">查询</a></h3>
+    			{% if error %}
+                    <p style="color:red;">请将信息输入完整！</p>
+                {% endif%}
+                {% if running %}
+                    <h5 style="color:red;">当前任务正在执行，请稍后再提交！</h5>
+                {% endif %}
+		    </div>
+	        <div class="row clearfix">
+	            <div class="col-md-6 column">
+                    <form enctype="multipart/form-data" class="form-horizontal" role="form" action="" method="post">{% csrf_token %}
+                        <label for="inputText" class="col-sm-2 control-label">任务号</label>
+    					<div class="col-sm-10">
+    						<input type="text" class="form-control" placeholder="任务编号" name="workNo"/>
+    					</div>
+
+                        <label for="inputText" class="col-sm-2 control-label">sheet</label>
+    					<div class="col-sm-10">
+    						<input type="text" class="form-control" placeholder="Sheet1" name="sheetName" />
+    					</div>
+
+                        <label for="inputText" class="col-sm-2 control-label">起始行</label>
+    					<div class="col-sm-10">
+    						<input type="text" class="form-control" placeholder="1" name="startRow" />
+    					</div>
+
+                        <label for="inputText" class="col-sm-2 control-label">结束行</label>
+    					<div class="col-sm-10">
+    						<input type="text" class="form-control" placeholder="2" name="endRow" />
+    					</div>
+    				
+                        <label for="inputText" class="col-sm-2 control-label">输出列</label>
+    					<div class="col-sm-10">
+    						<input type="text" class="form-control" placeholder="2" name="col" />
+    					</div>
+    					
+    					<label for="inputText" class="col-sm-2 control-label">参数表</label>
+                        <div class="col-sm-10">
+                            <input type="file" class="form-control" name="excelFile">
+                        </div>
+                        <label for="inputText" class="col-sm-2 control-label">试算报文</label>
+                        <div class="col-sm-10">
+                            <input type="file" class="form-control" name="ssFile">
+                        </div>
+                        <label for="inputText" class="col-sm-2 control-label">承保报文</label>
+                        <div class="col-sm-10">
+                            <input type="file" class="form-control" name="cbFile">
+                        </div>
+                        
+                        <label for="inputText" class="col-sm-2 control-label">银行</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" name="bankNo">
+                                <option value=""></option>
+                                <option value="ccb">建设银行</option>
+                                <option value="cib">兴业银行</option>
+                                <option value="cmb">招商银行</option>
+                                <option value="ebc">光大银行</option>
+                                <option value="pbc">中国人民银行</option>
+                                <option value="spdb">浦发银行</option>
+                                <option value="icbc">工商银行</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+					        <div class="col-sm-offset-2 col-sm-10">
+						        <button type="submit" class="btn btn-default btn-primary btn-block">提 交</button>
+					        </div>
+				        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <h3 style="color:red;">注意事项：</h3>
+                <p>1.任务号、sheet页名、起始行、结束行、输出列（返回保单号填写列）、银行代码为必填项。</p>
+                <p>2.参数表必须上传，且必须为.xls格式</p>
+                <p>3.只上传试算报文的银行：浦发银行</p>
+                <p>4.只上传承保报文的银行：招行、光大、工行</p>
+                <p>5.试算承保均需上传的银行：建行、兴业、中行</p>
+            </div>
+        </div>
+    </body>
+</html>

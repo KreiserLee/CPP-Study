@@ -1,0 +1,77 @@
+000000002908<?xml version="1.0"?>
+<TX>
+   <TX_HEADER>
+      <SYS_HDR_LEN>0</SYS_HDR_LEN>
+      <SYS_PKG_VRSN>01</SYS_PKG_VRSN>
+      <SYS_TTL_LEN>0</SYS_TTL_LEN>
+      <SYS_REQ_SEC_ID>102001</SYS_REQ_SEC_ID>
+      <SYS_SND_SEC_ID>108011</SYS_SND_SEC_ID>
+      <SYS_TX_CODE>P53819152</SYS_TX_CODE>
+      <SYS_TX_VRSN>01</SYS_TX_VRSN>
+      <SYS_TX_TYPE>020000</SYS_TX_TYPE>
+      <SYS_RESERVED>0</SYS_RESERVED>
+      <SYS_EVT_TRACE_ID>1020018031428474245001020</SYS_EVT_TRACE_ID>
+      <SYS_SND_SERIAL_NO>2000000000</SYS_SND_SERIAL_NO>
+      <SYS_PKG_TYPE>1</SYS_PKG_TYPE>
+      <SYS_MSG_LEN>0</SYS_MSG_LEN>
+      <SYS_IS_ENCRYPTED>0</SYS_IS_ENCRYPTED>
+      <SYS_ENCRYPT_TYPE>3</SYS_ENCRYPT_TYPE>
+      <SYS_COMPRESS_TYPE>0</SYS_COMPRESS_TYPE>
+      <SYS_EMB_MSG_LEN>0</SYS_EMB_MSG_LEN>
+      <SYS_REQ_TIME>2016111542405434</SYS_REQ_TIME>
+      <!--交易发起时间-->
+      <SYS_TIME_LEFT>000119565</SYS_TIME_LEFT>
+      <SYS_PKG_STS_TYPE>00</SYS_PKG_STS_TYPE>
+   </TX_HEADER>
+   <TX_BODY>
+      <COMMON>
+         <FILE_LIST_PACK>
+            <FILE_NUM>0</FILE_NUM>
+            <FILE_MODE>0</FILE_MODE>
+            <FILE_NODE />
+            <FILE_NAME_PACK />
+            <FILE_PATH_PACK />
+         </FILE_LIST_PACK>
+      </COMMON>
+      <ENTITY>
+         <COM_ENTITY>
+            <Inst_Eng_ShrtNm>CCB</Inst_Eng_ShrtNm>
+            <Ins_Co_ID>010001</Ins_Co_ID>
+            <SvPt_Jrnl_No>108011rv11428897212575243</SvPt_Jrnl_No>
+            <TXN_ITT_CHNL_ID>001</TXN_ITT_CHNL_ID>
+            <TXN_ITT_CHNL_CGY_CODE>10010001</TXN_ITT_CHNL_CGY_CODE>
+            <!--交易发起渠道类别 必填-->
+            <CCBIns_ID>110378300</CCBIns_ID>
+            <CCB_EmpID>95920150</CCB_EmpID>
+            <OprgDay_Prd>20161115</OprgDay_Prd>
+            <LNG_ID>zh-cn</LNG_ID>
+         </COM_ENTITY>
+         <APP_ENTITY>
+            <Plchd_Nm>司马</Plchd_Nm>
+            <!--投保人名称-->
+            <Plchd_Crdt_TpCd>1010</Plchd_Crdt_TpCd>
+            <!--投保人证件类型代码-->
+            <Plchd_Crdt_No>533524198008170196</Plchd_Crdt_No>
+            <!--投保人证件号码-->
+            <Plchd_Crdt_EfDt>20121117</Plchd_Crdt_EfDt>
+            <!--投保人证件生效日期-->
+            <Plchd_Crdt_ExpDt>20181117</Plchd_Crdt_ExpDt>
+            <!--投保人证件失效日期-->
+            <Plchd_Nat_Cd>156</Plchd_Nat_Cd>
+            <!--投保人国籍代码-->
+            <Ins_BillNo />
+            <!--投保单号-->
+            <Ins_PyF_Amt>1.00</Ins_PyF_Amt>
+            <!--保险缴费金额-->
+            <InsPrem_PyMd_Cd>1</InsPrem_PyMd_Cd>
+            <!--保费支付方式代码-->
+            <CCB_AccNo>6227110061371955</CCB_AccNo>
+            <!--建行账号-->
+            <Ins_Co_Jrnl_No>20161115cb45765942pm106</Ins_Co_Jrnl_No>
+            <!--保险公司流水号-->
+            <Lv1_Br_No>110000000</Lv1_Br_No>
+         </APP_ENTITY>
+      </ENTITY>
+   </TX_BODY>
+   <TX_EMB />
+</TX>
